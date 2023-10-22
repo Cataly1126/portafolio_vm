@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Dancing Script', cursiva;
+}
+body {
+   background-color: #b2e2f2;
+   box-sizing: border-box;
+   font-size: 16px;
+}
+
+nav{
+    background-color: #c0a0c3;
+    display: flex;
+    justify-content: space-between;
+    font-size: 55%;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 15%;
+    height:5%;
+    margin: 5%;
+    border-radius: 50%;
+}
+
+.nombre {
+    display: flex;
+    margin-left: -15px;
+    margin-top: 13%;
+    margin-right: auto;
+    width: fit-content;
+ 
+}
+
+li {
+    display: flex;
+    margin-right: 5%;
+    margin-top: 85%; 
+    max-width: 5%;
+    margin-left: -15%;
+    width: fit-content;
+
+}
+
+li a{
+    text-decoration: none;
+    cursor: pointer;
+    color:black;
+    box-sizing: border-box;
+}
+
+li a:hover {
+    color:#aedddd;
+}
+
+/*ARTICULOS*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articulos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: -5%;
+    box-sizing: border-box;
+   
+}
+
+.articulo {
+    /*las imagenes las centre con text align*/
+    text-align: center;
+    margin-left: 5%;
+    width: 187%;
+    background-color: #d3bcf6;
+    box-shadow: 111% 168% 785% -75% rgba(0,0,0, 0,09);
+    box-sizing: border-box;
+}
+
+.titulo {
+    text-align: center;
+    margin-right: 3%;
+    margin-top: 5%;
+    color: #bc98f3;
+}  
+
+.subtitulo {
+    text-align: center;
+}
+
+.oporto-jpg {
+    width: 85%;
+    border-radius: 50%;
+}
+
+.btn-art {
+    margin-top: 25%;
+    background-color: #b7fadf;
+    border-radius: 15%;
+    font-weight: 90%;
+    cursor: pointer;  
+    
+}
+
+.btn-art:hover {
+    color: #a788ab;
+}
+
+.titulo2 {
+    text-align: center;
+    margin-right: 3%;
+    margin-top:15%;
+}
+.carousel-inner {
+    width: fit-content;
+}
+
+/*use este espacio para poner informacion sobre mi*/
+
+.informacion {
+   display: flex;
+   margin-top: 12%;
+   margin-right: 5%;
+   margin-left: 5%;
+   background-color: #bc98f3;
+   box-shadow: 35%  -15%   -25% -30% rgba(0, 0, 0, 0,09);
+}
+
+
+.informacion img {
+    width: 16%;
+    height: 90%;
+    border-radius: 60%;
+    opacity: .9;
+}
+
+.informacion p {
+    margin-top: 4%;
+    width: 65%;
+    margin-left: 1%;
+    margin-right: -55;
+    box-sizing: border-box;
+}
+
+footer {
+   margin: 5%  5% ;
+   text-align: center;
+   font-weight: 20%;
+}
+
+footer p {
+    text-decoration: none;
+    color: #8f7193;
+}
+
+@media (max-width: 1200px){
+    body {
+       font-size: 14px;
+    }
+  }
+@media(max-width:992){
+
+}
+     
